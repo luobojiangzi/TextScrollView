@@ -13,6 +13,8 @@
 		89EE7F1021CE075C00ACE8C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89EE7F0F21CE075C00ACE8C1 /* Assets.xcassets */; };
 		89EE7F1321CE075C00ACE8C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89EE7F1121CE075C00ACE8C1 /* LaunchScreen.storyboard */; };
 		89EE7F1621CE075C00ACE8C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EE7F1521CE075C00ACE8C1 /* main.m */; };
+		89EE7F2021CE076700ACE8C1 /* ZHWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EE7F1D21CE076700ACE8C1 /* ZHWeakProxy.m */; };
+		89EE7F2121CE076700ACE8C1 /* TextScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EE7F1E21CE076700ACE8C1 /* TextScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		89EE7F1221CE075C00ACE8C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89EE7F1421CE075C00ACE8C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89EE7F1521CE075C00ACE8C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		89EE7F1C21CE076600ACE8C1 /* TextScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextScrollView.h; sourceTree = "<group>"; };
+		89EE7F1D21CE076700ACE8C1 /* ZHWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHWeakProxy.m; sourceTree = "<group>"; };
+		89EE7F1E21CE076700ACE8C1 /* TextScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextScrollView.m; sourceTree = "<group>"; };
+		89EE7F1F21CE076700ACE8C1 /* ZHWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHWeakProxy.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				89EE7F0721CE075B00ACE8C1 /* AppDelegate.m */,
 				89EE7F0921CE075B00ACE8C1 /* ViewController.h */,
 				89EE7F0A21CE075B00ACE8C1 /* ViewController.m */,
+				89EE7F1C21CE076600ACE8C1 /* TextScrollView.h */,
+				89EE7F1E21CE076700ACE8C1 /* TextScrollView.m */,
+				89EE7F1F21CE076700ACE8C1 /* ZHWeakProxy.h */,
+				89EE7F1D21CE076700ACE8C1 /* ZHWeakProxy.m */,
 				89EE7F0C21CE075B00ACE8C1 /* Main.storyboard */,
 				89EE7F0F21CE075C00ACE8C1 /* Assets.xcassets */,
 				89EE7F1121CE075C00ACE8C1 /* LaunchScreen.storyboard */,
@@ -141,6 +151,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89EE7F2121CE076700ACE8C1 /* TextScrollView.m in Sources */,
+				89EE7F2021CE076700ACE8C1 /* ZHWeakProxy.m in Sources */,
 				89EE7F0B21CE075B00ACE8C1 /* ViewController.m in Sources */,
 				89EE7F1621CE075C00ACE8C1 /* main.m in Sources */,
 				89EE7F0821CE075B00ACE8C1 /* AppDelegate.m in Sources */,
@@ -286,6 +298,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q3342NQMQH;
 				INFOPLIST_FILE = TextScrollView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +315,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q3342NQMQH;
 				INFOPLIST_FILE = TextScrollView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
