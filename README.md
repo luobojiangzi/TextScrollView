@@ -1,7 +1,7 @@
 # TextScrollView
 文字滚动（屏幕刷新频率）
 
-![Untitled.gif](https://upload-images.jianshu.io/upload_images/1419035-5392ec271c8ed736.gif?imageMogr2/auto-orient/strip)
+![Untitled.gif](https://upload-images.jianshu.io/upload_images/1741974-0a5a7ea12e8eedb8.gif?imageMogr2/auto-orient/strip)
 
 开发中遇到的需求(小玩意)，尝试了一些方式，踩了些坑，希望能帮到需要的同学
 
