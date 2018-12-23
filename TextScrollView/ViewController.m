@@ -22,6 +22,7 @@
     [super viewDidLoad];
     self.title = @"TextScroolView";
     [self addBtn];
+    /* test */
 }
 -(void)addBtn{
     self.view.backgroundColor = [UIColor colorWithRed:93 green:146 blue:219 alpha:1];
