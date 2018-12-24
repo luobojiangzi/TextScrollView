@@ -1,7 +1,7 @@
 # TextScrollView
 文字滚动（屏幕刷新频率）
 
-![AudioTool.gif](https://upload-images.jianshu.io/upload_images/1741974-3c140048fee9a9e6.gif?imageMogr2/auto-orient/strip)
+![TextScrollView.gif](https://upload-images.jianshu.io/upload_images/1741974-18a6d7f3a73e5ce7.gif?imageMogr2/auto-orient/strip)
 
 开发中遇到的需求(小玩意)，尝试了一些方式，踩了些坑，希望能帮到需要的同学
 
